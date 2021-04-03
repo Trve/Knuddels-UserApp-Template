@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"sourceMap": false,
+		"noImplicitAny": true,
+		"noImplicitUseStrict": true,
+		"module": "commonjs",
+		"lib": [
+			"es2017",
+			"dom"
+		],
+		"target": "es5",
+		"jsx": "react",
+		"jsxFactory": "h",
+		"baseUrl": ".",
+		"paths": {
+			"@lib/*": [ "./lib/*" ],
+			"@server/*": [ "./src/backend/*" ],
+			"@client/*": [ "./src/frontend/*" ]
+		}
+	},
+	"include": [
+		"src/**/*.ts",
+		"src/**/*.tsx"
+	]
+}
