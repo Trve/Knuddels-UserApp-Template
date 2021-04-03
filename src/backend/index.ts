@@ -1,6 +1,6 @@
 import '@lib/polyfills/polyfills-backend';
 
-import {SlashCommands} from '@server/types';
+import {SlashCommands} from '@backend/types';
 
 export class Server implements App {
 
