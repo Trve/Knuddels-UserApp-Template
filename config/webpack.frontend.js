@@ -17,7 +17,7 @@ module.exports = function(buildConfig) {
 		mode: buildConfig.mode,
 		entry: {
 			[buildConfig.appName]: [
-				path.join(frontend, './index.tsx'),
+				path.join(frontend, './frontend.tsx'),
 				path.join(frontendStyles, './frontend.css'),
 			],
 		},

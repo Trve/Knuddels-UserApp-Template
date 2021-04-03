@@ -13,7 +13,7 @@ module.exports = function(buildConfig) {
 	return {
 		mode: buildConfig.mode,
 		entry: {
-			[rootPathName + distDirName + '/' + userAppEntryPointName]: path.join(backend, '/index.ts'),
+			[rootPathName + distDirName + '/' + userAppEntryPointName]: path.join(backend, '/backend.ts'),
 		},
 		output: {
 			path: dist,
